@@ -18,7 +18,7 @@ export default function Header() {
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
           <img
-            src="/bruhshot.jpg"
+            src={`${import.meta.env.BASE_URL}headshot.jpg`}
             alt="Andrew Li"
             className="w-9 h-9 rounded-full object-cover ring-2 ring-[#4CAF50]/60"
           />
@@ -54,17 +54,17 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <SocialButton
               href="https://www.linkedin.com/in/andrew-li-andw/"
-              src="/linkedin-icon.png"
+              src={`${import.meta.env.BASE_URL}linkedin-icon.png`}
               alt="LinkedIn"
             />
             <SocialButton
               href="https://github.com/Andrewctrl"
-              src="/github-icon.png"
+              src={`${import.meta.env.BASE_URL}github-icon.png`}
               alt="GitHub"
             />
             <SocialButton
               href="mailto:Andw123@berkeley.edu"
-              src="/email-icon.png"
+              src={`${import.meta.env.BASE_URL}email-icon.png`}
               alt="Email"
             />
           </div>
