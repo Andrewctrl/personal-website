@@ -13,6 +13,6 @@ export const skills: { category: string; items: string[] }[] = [
   },
   {
     category: 'Tools',
-    items: ['Git / GitHub', 'AWS', 'CI/CD'],
+    items: ['Git / GitHub', 'AWS', 'CI/CD', 'Claude Code', 'Kiro IDE'],
   },
 ];
